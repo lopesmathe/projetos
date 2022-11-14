@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+header{
+    display: flex;
+}
+
+header > picture{
+    display: inline;
+}
+
+header > picture > img{
+    margin: 90px;
+}
+
+header > ul{
+    display: flex;
+    padding-left: 38%;
+    margin-top: 9%;
+}
+
+header > ul > li{
+    display: inline;
+    padding-left: 20px;
+}
+
+header > ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    display:flex;
+}
+
+main > picture > img{
+    width: 88%;
+    padding-left: 6.3%;
+    display:flex;
+    margin: unset;
+}
+
+main > article{
+    background-color: rgb(4, 4, 26);
+}
+
+main > article > h1{
+    padding-right: 470px;
+    color: rgb(219, 189, 106);
+}
