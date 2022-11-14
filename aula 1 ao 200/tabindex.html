@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+</head>
+<body>
+    <h1>Nessa aula vamos ver como utilizar o atributo <strong>tabindex</strong></h1>
+    <h2>De uma forma tecnica</h2>
+    <p>Define a posiçao do elemento na ordem de tabulaçao da pagina</p>
+    <h2>De uma forma informal</h2>
+    <p>vemos no exemplo abaixo 4 funçoes E-mail, senha, limpar, enviar porem quando apertamos a tecla TAB no navegador ela foca em algum lugar (no caso a sequencia e automatica) e esse lugar normalmente e 1-E-mail 2-senha 3-limpar 4-enviar  porem se eu quiser mudar essa orden eu utilizo o atributo tabindex, e para fazer isso vc vai na teg de abertura e coloca tabindex="1" ou tabindex="2" no caso a sequencia esta 1,2,4,3</p>
+    <h2>Na pratica</h2>
+    
+    <form>
+        <input type="text" placeholder="E-mail" tabindex="1">
+        <input type="password" placeholder="senha" tabindex="2">
+        <button type="reset" tabindex="4">limpar</button>
+        <button type="submit" tabindex="3">enviar</button>
+    </form>
+    
+    <p style="text-align: center;"><a href="aatributos.html" style="text-decoration: none; color: black;">voltar</a></p>
+</body>
+</htm>

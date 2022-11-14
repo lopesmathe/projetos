@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+}
+
+@font-face {
+    font-family: "tdiferente";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+
+
+body{
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3BD27F, #185233);
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.pdtitulo{
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
+
+.linki{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+main{
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.tdiferente{
+    font-family: "tdiferente";
+    font-size: 27px;
+    color: #336E4E;
+    padding: 5px 20px 10px 20px;
+    background-image: linear-gradient(to right, #C8ECD8, white); 
+}
+
+.pnormal{
+    text-align: justify;
+    padding: 5px 20px 10px 20px;
+    text-indent: 20px;
+}
+
+.pnormal2{
+    text-align: justify;
+    margin: 0px 50px 0px 50px;
+}
+
+.foto{
+    width: 100%;
+}
+
+.video{
+    text-align: center;
+    background-color: #185233;
+}
+
+.tabela{
+    padding: 20px;
+}
+
+.tnp{
+    color: white;
+    padding: 10px;
+    background-color: #2FA866;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.pnormal2{
+    background-color: #C5EBD6;
+    margin: 0px 50px 0px 50px;
+    padding: 10px;
+}
+
+ul{
+    background-color: #C5EBD6;
+    margin: 0px 50px 0px 50px;
+    list-style: none;
+}
+
+li::before{
+    content: "✔";
+}
+
+abbr{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #1A5C38;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+}
+
