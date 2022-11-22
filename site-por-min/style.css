@@ -61,6 +61,9 @@
         margin-left: 25%;
         border-radius: 5px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+        max-width: 800px;
+        min-width: 280px;
+        margin: auto;
     }
 
     main > h1{
@@ -78,5 +81,9 @@
         padding: 10px;
         text-indent: 5px;
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main > img{
+        width: 100%;
     }
     
