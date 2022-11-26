@@ -40,9 +40,10 @@
 
     header > ul > li{
         display: inline;
+        margin: 0px;
         padding: 10px;
         min-width: 200px;
-        max-width: 1000px;
+        max-width: 1000px;        
     }
 
     header > ul > li > a{
@@ -89,3 +90,5 @@
         width: 100%;
     }
     
+
+    /* teste */
