@@ -19,7 +19,10 @@
 
     body{
         margin: 0px;
+        background-color: black;
         background-image: url(imagens/pexels-pixabay-53594.jpg);
+        background-position: center center;
+        background-size: cover;
     }
 
     header{
