@@ -101,6 +101,6 @@ section#img02{
 footer{
     background-color: rgba(0, 0, 0, 0.219);
     text-align: center;
-    color: white;
     padding:10px;
+    background-color: blueviolet;
 }
