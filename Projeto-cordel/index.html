@@ -9,6 +9,13 @@
     <script>
         var nome = window.prompt("OI, eu gostaria muito de saber qual o seu nome")
 
+        var textof = document.querySelector("#textof");
+
+        function trocar1() {
+            textof.textContent = `ola ${nome}`
+        }
+
+
     </script>
 </head>
 <body>
@@ -98,6 +105,9 @@
             Deixe que Deus interprete. <br>
         </p>
     </section>
+
+    <div class="textof">Nao há nada aqui ainda</div>
+
     <footer>
         Site criado por <a href="https:/github.com/lopesmathe" target="_blank">Matheus Lopes</a>
     </footer>
